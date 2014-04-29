@@ -1,0 +1,26 @@
+Students:
+
+Thomas Chow (Login: by, SID: 22215698)
+Mukul Murthy (Login: dq, SID: 21803720 
+
+Instructions to Run:
+
+	ps1.m runs the necessary script to generate outputs for CS 189 problem set 1.
+	
+	In Matlab command line:
+
+	[prob1, prob2, prob3] = ps1( TRAINING_DATA, TEST_DATA)
+	
+		TRAINING_DATA is the file path to the .m file for the training sets.
+		TEST_DATA is the file path to the .m file for the test set.
+		
+	Output:
+		The script generates 8 figures. The first is the error rate for problem 1. The next 7 are the confusion matrices for problem 2. 
+		
+		prob1 contains predicted_labels, accuracy, decisions/probability estimates.
+		prob2 contains confusion matrices from prob1.
+		prob3 contains the optimal value for C for an SVM, and the corresponding error rate on the test set.
+		
+		NOTE: output variables prob1 and prob2 can be ignored, as the figures will generate while running the script. 
+			Navigate prob3 to find our answers to problem 3 on the pset. 
+ 
